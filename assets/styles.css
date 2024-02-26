@@ -1,0 +1,62 @@
+body {
+    background-color: #F0F8FF; /* Ganti dengan warna yang diinginkan */
+  }
+.navbar {
+    min-height: 120px; /* You can adjust the height as needed */
+    font-size: 1rem; /* You can adjust the font size as needed */
+}
+
+
+/* assets/styles.css atau tambahkan langsung di dalam tag <style> pada <head> HTML */
+.navbar-brand {
+    font-size: 35px; /* Ukuran font yang lebih besar */
+    font-weight: bold; /* Tebal */
+    font-family: 'Roboto', sans-serif; /* Gaya font Roboto */
+}
+
+/* Opsional: Mengubah gaya teks pada dropdown jika diperlukan */
+.dropdown-menu-dark {
+    font-family: 'Roboto', sans-serif; /* Gaya font Roboto */
+    /* Tambahan gaya teks lainnya jika diperlukan */
+}
+
+#carouselExampleIndicators {
+    position: relative;
+  }
+
+  .carousel-control-prev,
+  .carousel-control-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 3rem; /* Sesuaikan ukuran font sesuai keinginan Anda */
+    color: white; /* Sesuaikan warna tombol sesuai keinginan Anda */
+    background: none;
+    border: bold;
+    outline: none;
+  }
+
+  .carousel-control-prev {
+    left: 80px;
+  }
+
+  .carousel-control-next {
+    right: 80px;
+  }
+
+  footer {
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    margin-top: auto;
+}
+
+footer h3 {
+    font-size: 24px;
+}
+
+footer p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
